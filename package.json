@@ -1,8 +1,7 @@
 {
-  "name": "web3-ltd",
+  "name": "ltd-awards",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://caotrimai.github.io/character-awards",
   "dependencies": {
     "@babel/core": "^7.4.3",
     "@binance-chain/bsc-connector": "^1.0.0",
@@ -47,7 +46,6 @@
     "file-loader": "2.0.0",
     "fork-ts-checker-webpack-plugin-alt": "0.4.14",
     "fs-extra": "7.0.0",
-    "gh-pages": "^3.2.3",
     "history": "^4.7.2",
     "html-webpack-plugin": "4.0.0-alpha.2",
     "identity-obj-proxy": "3.0.0",
@@ -93,10 +91,7 @@
   },
   "scripts": {
     "start": "cross-env PORT=3100 node scripts/start.js",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "build": "node scripts/build.js"
   },
   "browserslist": [
     ">0.2%",
