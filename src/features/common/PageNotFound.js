@@ -3,12 +3,12 @@ import React from 'react';
 
 const useStyles = makeStyles({
   PageNotFound: {
-    color: '#999'
+    color: '#999',
   },
 });
 
-export default function PageNotFound() {
+export default function PageNotFound () {
   const classes = useStyles();
-  
+
   return <div className={classes.PageNotFound}>Page not found.</div>;
 }
