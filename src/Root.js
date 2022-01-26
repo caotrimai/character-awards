@@ -68,7 +68,7 @@ const useStyles = makeStyles({
     textDecoration: 'none',
     overflowX: 'hidden',
     '& .ContainerWrapper': {
-      minHeight: 'calc(1080px - 622px)',
+      minHeight: 'calc(1080px - 612px)',
     },
   },
 });

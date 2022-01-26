@@ -116,7 +116,10 @@ export default function WinnerAndNominee ({ award }) {
 const dispatch = useDispatch();
   
   const winnerMobile = (
-    <div className={classes.winnerMobile}>
+    <div 
+      className={classes.winnerMobile}
+      onClick={() => handleClickPerson(winner)}
+    >
       <img
         className={classes.winnerImg}
         src={winner.images[0]}
